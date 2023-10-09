@@ -17,10 +17,13 @@ body {
 }
 
 .logo {
-    width: 30%;
+    width: 300px;
     position: absolute;
-    top: -10%;
-    left: 4%;
+    left: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
 }
 
 .hidenav {
@@ -458,8 +461,8 @@ hr {
 /*------Media Screen------*/
 @media screen and (max-width:430px) {
     .logo{
-        top: -6%;
-        width: 60%;
+        /* top: -6%; */
+        width: 200px;
     }
 
     body {
